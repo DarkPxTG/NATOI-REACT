@@ -5,7 +5,7 @@ import ArrowBigRight from "@/icons/ArrowBigRight"
 const CheckFootprint = () => {
     return (
         <div className="flex justify-center w-full">
-            <div className="fixed top-0 w-full max-w-md px-4 py-3 bg-[#333333] cursor-pointer z-20">
+            <div className="fixed top-0 w-full max-w-md px-4 py-3 bg-[#161616] cursor-pointer z-20">
                 <div className="flex justify-between items-center pl-2 border-l-[2px] border-[#39a3ff]">
                     <div className="text-base text-white font-medium">Check the NATOI Chanel</div>
                     {/* لینک دادن به فلش آبی */}
