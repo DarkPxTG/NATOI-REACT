@@ -73,8 +73,7 @@ const ReferralSystem: React.FC<ReferralSystemProps> = ({ initData, userId, start
       </div>
 
       {/* Referrer Info */}
-      
-
+    
       {/* Empty State or Referral List */}
       <div className="mt-8 mb-2">
         <div className="bg-[#151516] w-full rounded-2xl p-8 flex flex-col items-center">
