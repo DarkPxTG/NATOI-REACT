@@ -23,8 +23,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Paws Game Clone",
-  description: "Clone of the popular Telegram mini app Paws, developed by Nikandr Surkov.",
+  title: "NATOI Game Clone",
+  description: "Clone of the popular Telegram mini app NATOI, developed by Nikandr Surkov.",
 };
 
 export default function RootLayout({

@@ -12,19 +12,19 @@ const TasksTab = () => {
 
   const inGameTasks = [
     { id: 'task1', title: 'Put 🕷 in your name', reward: '+ 5,000 PAWS', link: '', image: 'daST.png' },
-    { id: 'task2', title: 'Follow Youtube Dark', reward: '+ 2,000 Dark', link: 'https://youtube.com/@dark_tpg?si=sDLzGdTK1t8I7c1N', image: 'youtube.6cd3c9a8.png' },
-    { id: 'task3', title: 'Boost Dark channel', reward: '+ 2,500 Dark', link: 'https://t.me/boost/Rabbit_coinR', image: 'bost.png' },
+    { id: 'task2', title: 'Follow Youtube NATOI', reward: '+ 2,000 NATOI', link: 'https://youtube.com/@NATOI_tpg?si=sDLzGdTK1t8I7c1N', image: 'youtube.6cd3c9a8.png' },
+    { id: 'task3', title: 'Boost NATOI channel', reward: '+ 2,500 NATOI', link: 'https://t.me/boost/Rabbit_coinR', image: 'bost.png' },
   ];
 
   const partnerTasks = [
-    { id: 'partner1', title: 'Join Binance', reward: '+ 10,000 Dark', link: 'https://www.binance.com', image: 'binance-logo.png' },
-    { id: 'partner2', title: 'Join Whale Chanel', reward: '+ 10,000 Dark', link: 'https://t.me/WhAlE_ChAnEl', image: 'telegram.d70bd4ea.png' },
+    { id: 'partner1', title: 'Join Binance', reward: '+ 10,000 NATOI', link: 'https://www.binance.com', image: 'binance-logo.png' },
+    { id: 'partner2', title: 'Join Whale Chanel', reward: '+ 10,000 NATOI', link: 'https://t.me/WhAlE_ChAnEl', image: 'telegram.d70bd4ea.png' },
   ];
 
   const limitedTasks = [
-    { id: 'limited1', title: 'Play Paws', reward: '+ 15,000 Dark', link: 'https://t.me/PAWSOG_bot/PAWS?startapp=eHsemNn8', image: 'paws.png' },
-    { id: 'limited2', title: 'Play Buzzit', reward: '+ 20,000 Dark', link: 'https://t.me/buzzit1_bot/buzzit?startapp=1725757055', image: 'Buzzit.png' },
-    { id: 'limited3', title: 'Play Not Coin', reward: '+ 25,000 Dark', link: 'https://t.me/notcoin_bot?start=er_11170585', image: 'not.png' },
+    { id: 'limited1', title: 'Play Paws', reward: '+ 15,000 NATOI', link: 'https://t.me/PAWSOG_bot/PAWS?startapp=eHsemNn8', image: 'paws.png' },
+    { id: 'limited2', title: 'Play Buzzit', reward: '+ 20,000 NATOI', link: 'https://t.me/buzzit1_bot/buzzit?startapp=1725757055', image: 'Buzzit.png' },
+    { id: 'limited3', title: 'Play Not Coin', reward: '+ 25,000 NATOI', link: 'https://t.me/notcoin_bot?start=er_11170585', image: 'not.png' },
   ];
 
   useEffect(() => {
