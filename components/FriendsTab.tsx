@@ -10,7 +10,7 @@ interface ReferralSystemProps {
 }
 
 const ReferralSystem: React.FC<ReferralSystemProps> = ({ initData, userId, startParam }) => {
-  const [referrals, setReferrals] = useState<string[]>([]);
+  const [referrals, setReferrals] = useState<string[]>([]); // مقدار پیش‌فرض یک آرایه خالی است
   const [referrer, setReferrer] = useState<string | null>(null);
   const INVITE_URL = "https://t.me/NATOICoiin_bot/start";
 
@@ -72,15 +72,10 @@ const ReferralSystem: React.FC<ReferralSystemProps> = ({ initData, userId, start
         <div className="text-gray-500 text-xl">FRIEND'S POINTS</div>
       </div>
 
-      {/* Referrer Info */}
-      {referrer && (
-        <p className="text-green-500 mt-4">You were referred by user {referrer}</p>
-      )}
-
       {/* Empty State or Referral List */}
       <div className="mt-8 mb-2">
         <div className="bg-[#151516] w-full rounded-2xl p-8 flex flex-col items-center">
-          {referrals.length > 0 ? (
+          {referrals && referrals.length > 0 ? ( // اضافه کردن شرط برای بررسی که referrals تعریف شده است
             <>
               <h2 className="text-2xl font-bold mb-4 text-white">Your Referrals</h2>
               <ul className="w-full">
@@ -120,7 +115,6 @@ const ReferralSystem: React.FC<ReferralSystemProps> = ({ initData, userId, start
           </button>
         </div>
       </div>
-
     </div>
   );
 };
