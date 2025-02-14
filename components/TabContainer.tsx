@@ -3,7 +3,7 @@
 import { useTab } from '@/contexts/TabContext'
 import HomeTab from './HomeTab'
 import LeaderboardTab from './LeaderboardTab'
-import FriendsTab from './FriendsTab'
+import FriendsTab from './ReferralSystem'
 import TasksTab from './TasksTab'
 
 // اضافه کردن مقادیر initData، userId و startParam
