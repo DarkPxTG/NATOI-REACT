@@ -29,7 +29,7 @@ const NavigationBar = () => {
     return (
         <div className="flex justify-center w-full">
             <div className="fixed bottom-0 bg-black border-t border-gray-800 w-full max-w-md">
-                <div className="flex justify-between px-4 py-2">
+                <div className="flex justify-between px-4 py-4"> {/* تغییر py-2 به py-4 */}
                     {tabs.map((tab) => {
                         const isActive = activeTab === tab.id
                         return (
@@ -39,12 +39,12 @@ const NavigationBar = () => {
                                 className={`flex flex-col items-center`}
                             >
                                 <tab.Icon
-                                    className={`w-10 h-10 ${isActive ? 'text-[#4c9ce2]' : 'text-[#727272]'
-                                        }`}
+                                    className={`w-12 h-12 ${isActive ? 'text-[#4c9ce2]' : 'text-[#727272]'
+                                        }`}  // تغییر اندازه آیکون‌ها به w-12 h-12
                                 />
                                 <span
-                                    className={`text-xs font-medium ${isActive ? 'text-[#4c9ce2]' : 'text-[#727272]'
-                                        }`}
+                                    className={`text-sm font-medium ${isActive ? 'text-[#4c9ce2]' : 'text-[#727272]'
+                                        }`} // تغییر text-xs به text-sm
                                 >
                                     {tab.label}
                                 </span>
