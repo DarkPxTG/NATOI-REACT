@@ -73,9 +73,7 @@ const ReferralSystem: React.FC<ReferralSystemProps> = ({ initData, userId, start
       </div>
 
       {/* Referrer Info */}
-      {referrer && (
-        <p className="text-green-500 mt-4">You were referred by user {referrer}</p>
-      )}
+      
 
       {/* Empty State or Referral List */}
       <div className="mt-8 mb-2">
