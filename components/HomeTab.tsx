@@ -117,7 +117,7 @@ const HomeTab = () => {
 
             <div className="space-y-3 px-4 mt-8 mb-8 relative z-10">
                 {/* دکمه Join Community */}
-                <button className="shine-effect w-full bg-[#ffffff0d] border-[1px] border-[#2d2d2e] rounded-lg px-4 py-2 flex items-center justify-between max-w-[500px] mx-auto">
+                <button className="w-full bg-[#ffffff0d] border-[1px] border-[#2d2d2e] rounded-lg px-4 py-4 flex items-center justify-between max-w-[900px] mx-auto">
                     <div className="flex items-center gap-3 font-medium">
                         <Community className="w-8 h-8" />
                         <span>Join our Community</span>
@@ -126,7 +126,7 @@ const HomeTab = () => {
                 </button>
 
                 {/* دکمه Check Rewards */}
-                <button className="w-full bg-[#ffffff0d] border-[1px] border-[#2d2d2e] rounded-lg px-4 py-2 flex items-center justify-between max-w-[700px] mx-auto">
+                <button className="w-full bg-[#ffffff0d] border-[1px] border-[#2d2d2e] rounded-lg px-4 py-4 flex items-center justify-between max-w-[900px] mx-auto">
                     <div className="flex items-center gap-3 font-medium">
                         <Star className="w-8 h-8" />
                         <span>Check your Rewards</span>
